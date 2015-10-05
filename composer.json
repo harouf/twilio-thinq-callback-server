@@ -1,0 +1,14 @@
+{
+    "name": "fujio_harou/twiml_response_generator",
+    "description": "Generate TwiML callback response based on POST parameters",
+    "authors": [
+        {
+            "name": "Fujio Harou",
+            "email": "harouf@outlook.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^2.6",
+        "twilio/sdk": "^4.3"
+    }
+}
