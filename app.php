@@ -2,7 +2,7 @@
 require 'vendor/autoload.php';
 use \Slim\Slim as Slim;
 
-/*$default_thinQ_callback = array(
+$default_thinQ_callback = array(
 	'type' => 'sip',                          // can be 'sip' or 'phone'
 	'detail' => array(                                      // SIP details here
 	    'id' => '19196356566',
@@ -12,13 +12,6 @@ use \Slim\Slim as Slim;
 	        'thinQtoken' => '0c82a54f22f775a3ed8b97b2dea74036'
 	    )
 	)
-);*/
-
-$default_thinQ_callback = array(
-	'type' => 'phone',
-    'detail' => array(
-        'id' => '+86 131 3415 2348'                // twilio number or valid phone number
-    )
 );
 
 $app = new Slim();
